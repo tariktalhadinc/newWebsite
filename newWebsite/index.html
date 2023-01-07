@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,inital-scale=1.0" />
+
+    <title> Personal Website</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <section class="hero">
+        <div class="main-with">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-t"></i>
+                </div>
+
+                <nav>
+                    <div class="hamb">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li class="btn"><a href="#">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-text">
+                    <h3>Hi,There!</h3>
+                    <h1>I am <span class="input"></span></h1>
+                    <p>
+                        Ben Boğaziçi Üniversitesi Bilgisayar ve Öğretim Teknolojileri 2. Sınıf öğrencisiyim. Yaklaşık 2 yıldır iş sektöründeyim ve son 1 yıldır aktif olarak yazılımla ilgileniyorum
+                        Yaklaşık 6 aydır Papara şirketinde Software Engineer Intern olarak çalışıyorum. C# ve .NET üzerine projeler geliştiriyorum.
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="#"><i class="fa-brands fa-spotify"></i></a>
+                    </div>
+                    <button type="button">More About Me</button>
+                </div>
+                <div class="bottom">
+                    <p>© 2023 Talha | All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["Tarık  Talha  DİNÇ.", "Backend  Developer.", "Photographer.", "Freelance  Student."],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+
+</body>
+</html>
